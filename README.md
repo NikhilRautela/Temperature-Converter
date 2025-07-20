@@ -2,7 +2,8 @@
 
 A responsive and visually appealing web application to convert temperatures between Celsius, Fahrenheit, Kelvin, and Rankine. Built using **HTML**, **CSS**, and **JavaScript**.
 
-![Screenshot](screenshot.png) <!-- Optional: add an image of your project -->
+![Screenshot](<img width="624" height="554" alt="Screenshot " src="https://github.com/user-attachments/assets/ca7e97f1-8abe-4724-aa63-084c15337512" />
+) <!-- Optional: add an image of your project -->
 
 ---
 
