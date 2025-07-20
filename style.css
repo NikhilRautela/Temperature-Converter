@@ -1,0 +1,77 @@
+/* style.css */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(135deg, #c0c7b6, #a1e6a1);
+}
+
+.converter {
+  text-align: center;
+  width: 90%;
+  max-width: 400px;
+  background-color: #a0a19a;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 1s ease-in-out;
+}
+
+h2 {
+  color: #ee0c0c;
+  margin-bottom: 15px;
+}
+
+label {
+  font-weight: 500;
+  display: block;
+  margin-top: 10px;
+  color: #681c1c;
+}
+
+select, input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 8px;
+  border: 1px solid #eba0a0;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+button {
+  margin-top: 15px;
+  background-color: #4c56e6;
+  color: rgb(250, 245, 245);
+  border: none;
+  padding: 12px;
+  width: 100%;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #e1d24a;
+}
+
+#result {
+  font-weight: bold;
+  color: #c0a3a3;
+  background-color: #f4f4f4;
+}
+
+@media screen and (max-width: 500px) {
+  .converter {
+    padding: 20px;
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
