@@ -6,7 +6,7 @@ A responsive and visually appealing web application to convert temperatures betw
 
 ## 🌐 Live Demo
 
-[Click here to view the site](tranquil-entremet-485e00.netlify.app)
+[Click here to view the site](https://tranquil-entremet-485e00.netlify.app/))
 
 ---
 
